@@ -200,6 +200,13 @@
 	<Key key="Return">select</Key>
 	<Key key="Escape">escape</Key>
 
+
+	<Key mask="AS" key="x">exit</Key>
+	<Key mask="AC" key="Delete">exit</Key>
+
+	<Key mask="AS" key="c">restart</Key>
+
+
 	<Key mask="A" key="Tab">nextstacked</Key>
 	<Key mask="4" key="a">prevstacked</Key>
 	<Key mask="4" key="s">nextstacked</Key>
@@ -218,6 +225,9 @@
 	<Key mask="4" key="y">shade</Key>
 	<Key mask="4" key="e">move</Key>
 	<Key mask="4" key="r">resize</Key>
+	<Key mask="4" key="x">minimize</Key>
+	<!--<Key mask="A" key="x">restore</Key>//-->
+
 
 	<Key mask="A" key="a">ldesktop</Key>
 	<Key mask="A" key="s">rdesktop</Key>
