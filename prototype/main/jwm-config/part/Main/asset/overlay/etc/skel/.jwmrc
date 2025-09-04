@@ -214,8 +214,11 @@
 	<Key mask="4" key="w">maximize</Key>
 	<Key mask="A" key="F11">fullscreen</Key>
 	<Key mask="4" key="f">fullscreen</Key>
-
 	<Key mask="4" key="d">showdesktop</Key>
+	<Key mask="4" key="y">shade</Key>
+	<Key mask="4" key="e">move</Key>
+	<Key mask="4" key="r">resize</Key>
+
 	<Key mask="A" key="a">ldesktop</Key>
 	<Key mask="A" key="s">rdesktop</Key>
 	<Key mask="A" key="Left">ldesktop</Key>
