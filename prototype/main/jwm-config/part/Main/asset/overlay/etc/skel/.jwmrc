@@ -236,6 +236,12 @@
 	<Key mask="A" key="Up">udesktop</Key>
 	<Key mask="A" key="Down">ddesktop</Key>
 
+
+	<Key mask="AS" key="d">exec:rofi -show drun -show-icons</Key>
+	<Key mask="AS" key="w">exec:rofi -show window -show-icons</Key>
+	<Key mask="AS" key="r">exec:rofi -show run</Key>
+
+
 	<!-- Mouse bindings -->
 	<Mouse context="root" button="4">ldesktop</Mouse>
 	<Mouse context="root" button="5">rdesktop</Mouse>
