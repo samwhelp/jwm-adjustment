@@ -189,6 +189,7 @@
 	<ResizeMode>opaque</ResizeMode>
 
 	<!-- Key bindings -->
+	<!-- https://joewing.net/projects/jwm/config.html#keys //-->
 	<Key key="Up">up</Key>
 	<Key key="Down">down</Key>
 	<Key key="Right">right</Key>
@@ -227,6 +228,8 @@
 	<Key mask="4" key="r">resize</Key>
 	<Key mask="4" key="x">minimize</Key>
 	<!--<Key mask="A" key="x">restore</Key>//-->
+	<!--<Key mask="4" key="m">showtray</Key>//-->
+
 
 
 	<Key mask="A" key="a">ldesktop</Key>
@@ -257,6 +260,7 @@
 
 
 	<!-- Mouse bindings -->
+	<!-- https://joewing.net/projects/jwm/config.html#mouse //-->
 	<Mouse context="root" button="4">ldesktop</Mouse>
 	<Mouse context="root" button="5">rdesktop</Mouse>
 
