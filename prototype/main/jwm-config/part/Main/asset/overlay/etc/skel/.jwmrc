@@ -337,4 +337,7 @@
 	<Mouse context="border" mask="4" button="3">resize</Mouse>
 
 
+	<StartupCommand>~/.config/jwm/start</StartupCommand>
+
+
 </JWM>
