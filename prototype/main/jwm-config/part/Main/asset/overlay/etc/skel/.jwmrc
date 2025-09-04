@@ -242,6 +242,20 @@
 	<Key mask="AS" key="r">exec:rofi -show run</Key>
 
 
+	<Key mask="AS" key="f">exec:thunar</Key>
+	<Key mask="AS" key="g">exec:pcmanfm</Key>
+	<Key mask="AS" key="e">exec:mousepad</Key>
+	<Key mask="AS" key="b">exec:firefox --new-tab about:blank</Key>
+
+
+	<Key mask="A" key="Return">exec:sakura</Key>
+	<Key mask="AS" key="a">exec:sakura</Key>
+	<Key mask="AC" key="a">exec:xfce4-terminal</Key>
+	<Key mask="AS" key="t">exec:qterminal</Key>
+	<Key mask="AC" key="t">exec:lxterminal</Key>
+	<Key mask="AS" key="y">exec:xfce4-terminal --drop-down</Key>
+
+
 	<!-- Mouse bindings -->
 	<Mouse context="root" button="4">ldesktop</Mouse>
 	<Mouse context="root" button="5">rdesktop</Mouse>
