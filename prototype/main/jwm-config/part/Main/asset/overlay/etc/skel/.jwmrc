@@ -211,8 +211,11 @@
 	<Key mask="A" key="space">window</Key>
 	<Key mask="A" key="F10">maximize</Key>
 	<Key mask="4" key="w">maximize</Key>
-	<Key mask="A" key="Right">rdesktop</Key>
+
+	<Key mask="A" key="a">ldesktop</Key>
+	<Key mask="A" key="s">rdesktop</Key>
 	<Key mask="A" key="Left">ldesktop</Key>
+	<Key mask="A" key="Right">rdesktop</Key>
 	<Key mask="A" key="Up">udesktop</Key>
 	<Key mask="A" key="Down">ddesktop</Key>
 
