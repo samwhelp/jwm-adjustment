@@ -4,6 +4,9 @@
 	<!-- The root menu. -->
 	<RootMenu onroot="12">
 		<Include>/etc/jwm/debian-menu</Include>
+		<Program icon="file-manager" label="File Manager">thunar</Program>
+		<Program icon="web-browser" label="Web Browser">firefox --new-tab about:blank</Program>
+		<Separator/>
 		<Program icon="utilities-terminal" label="Terminal">x-terminal-emulator</Program>
 		<Separator/>
 		<Program icon="lock" label="Lock">
@@ -199,10 +202,12 @@
 
 	<Key mask="A" key="Tab">nextstacked</Key>
 	<Key mask="A" key="F4">close</Key>
+	<Key mask="4" key="q">close</Key>
 	<Key mask="A" key="#">desktop#</Key>
 	<Key mask="A" key="F1">root:1</Key>
 	<Key mask="A" key="F2">window</Key>
 	<Key mask="A" key="F10">maximize</Key>
+	<Key mask="4" key="w">maximize</Key>
 	<Key mask="A" key="Right">rdesktop</Key>
 	<Key mask="A" key="Left">ldesktop</Key>
 	<Key mask="A" key="Up">udesktop</Key>
