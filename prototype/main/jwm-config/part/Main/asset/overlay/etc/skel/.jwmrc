@@ -4,6 +4,7 @@
 	<!-- The root menu. -->
 	<RootMenu onroot="12">
 		<Include>/etc/jwm/debian-menu</Include>
+		<Program icon="start-here" label="Rofi">rofi -show drun -show-icons</Program>
 		<Program icon="file-manager" label="File Manager">thunar</Program>
 		<Program icon="web-browser" label="Web Browser">firefox --new-tab about:blank</Program>
 		<Separator/>
