@@ -212,6 +212,7 @@
 	<Key mask="A" key="F10">maximize</Key>
 	<Key mask="4" key="w">maximize</Key>
 
+	<Key mask="4" key="d">showdesktop</Key>
 	<Key mask="A" key="a">ldesktop</Key>
 	<Key mask="A" key="s">rdesktop</Key>
 	<Key mask="A" key="Left">ldesktop</Key>
