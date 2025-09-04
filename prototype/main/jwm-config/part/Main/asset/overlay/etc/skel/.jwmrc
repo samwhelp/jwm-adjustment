@@ -280,6 +280,7 @@
 
 	<!-- Mouse bindings -->
 	<!-- https://joewing.net/projects/jwm/config.html#mouse //-->
+	<Mouse context="root" button="3">root:1</Mouse>
 	<Mouse context="root" button="4">ldesktop</Mouse>
 	<Mouse context="root" button="5">rdesktop</Mouse>
 
