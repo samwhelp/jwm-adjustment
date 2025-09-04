@@ -44,10 +44,10 @@
 
 		<Spacer width="2"/>
 
-		<TrayButton icon="file-manager">exec:thunar</TrayButton>
-		<TrayButton icon="text-editor">exec:mousepad</TrayButton>
-		<TrayButton icon="web-browser">exec:firefox --new-tab about:blank</TrayButton>
-		<TrayButton icon="terminal">exec:sakura</TrayButton>
+		<TrayButton icon="file-manager" popup="File Manager">exec:thunar</TrayButton>
+		<TrayButton icon="text-editor" popup="Text Editor">exec:mousepad</TrayButton>
+		<TrayButton icon="web-browser" popup="Web Browser">exec:firefox --new-tab about:blank</TrayButton>
+		<TrayButton icon="terminal" popup="Terminal">exec:sakura</TrayButton>
 
 		<Spacer width="2"/>
 
