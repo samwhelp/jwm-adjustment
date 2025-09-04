@@ -37,11 +37,19 @@
 	<Tray x="0" y="-1" height="25" autohide="off" delay="1000">
 
 		<TrayButton icon="/usr/share/jwm/jwm-red.svg">root:1</TrayButton>
-		<Spacer width="2"/>
-		<TrayButton label="_">showdesktop</TrayButton>
+
 		<Spacer width="2"/>
 
 		<Pager labeled="true"/>
+
+		<Spacer width="2"/>
+
+		<TrayButton icon="file-manager">exec:thunar</TrayButton>
+		<TrayButton icon="text-editor">exec:mousepad</TrayButton>
+		<TrayButton icon="web-browser">exec:firefox --new-tab about:blank</TrayButton>
+		<TrayButton icon="terminal">exec:sakura</TrayButton>
+
+		<Spacer width="2"/>
 
 		<TaskList maxwidth="256"/>
 
@@ -49,6 +57,12 @@
 
 		<Dock/>
 		<Clock format="%l:%M %p"><Button mask="123">exec:xclock</Button></Clock>
+
+		<Spacer width="2"/>
+
+		<TrayButton label="_">showdesktop</TrayButton>
+
+		<Spacer width="2"/>
 
 	</Tray>
 
