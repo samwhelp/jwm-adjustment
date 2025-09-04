@@ -201,11 +201,14 @@
 	<Key key="Escape">escape</Key>
 
 	<Key mask="A" key="Tab">nextstacked</Key>
+	<Key mask="4" key="a">prevstacked</Key>
+	<Key mask="4" key="s">nextstacked</Key>
 	<Key mask="A" key="F4">close</Key>
 	<Key mask="4" key="q">close</Key>
 	<Key mask="A" key="#">desktop#</Key>
 	<Key mask="A" key="F1">root:1</Key>
-	<Key mask="A" key="F2">window</Key>
+	<!-- <Key mask="A" key="F2">window</Key> //-->
+	<Key mask="A" key="space">window</Key>
 	<Key mask="A" key="F10">maximize</Key>
 	<Key mask="4" key="w">maximize</Key>
 	<Key mask="A" key="Right">rdesktop</Key>
