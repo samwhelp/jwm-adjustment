@@ -182,11 +182,16 @@
 	<!-- The snap mode (none, screen, or border) -->
 	<SnapMode distance="10">border</SnapMode>
 
+	<!-- https://joewing.net/projects/jwm/config.html#other //-->
 	<!-- The move mode (outline or opaque) -->
-	<MoveMode>opaque</MoveMode>
+	<!-- <MoveMode>opaque</MoveMode> //-->
+	<!-- <MoveMode mask="A">opaque</MoveMode> //-->
+	<MoveMode mask="4">opaque</MoveMode>
 
 	<!-- The resize mode (outline or opaque) -->
-	<ResizeMode>opaque</ResizeMode>
+	<!-- <ResizeMode>opaque</ResizeMode> //-->
+	<!-- <ResizeMode mask="A">opaque</ResizeMode> //-->
+	<ResizeMode mask="4">opaque</ResizeMode>
 
 	<!-- Key bindings -->
 	<!-- https://joewing.net/projects/jwm/config.html#keys //-->
