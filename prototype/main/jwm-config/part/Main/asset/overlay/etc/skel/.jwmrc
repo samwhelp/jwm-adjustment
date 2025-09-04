@@ -195,6 +195,20 @@
 
 	<!-- Key bindings -->
 	<!-- https://joewing.net/projects/jwm/config.html#keys //-->
+	<!--
+
+		## mask
+
+		A - Alt (mod1)
+		C - Control
+		S - Shift
+		1 - mod1
+		2 - mod2
+		3 - mod3
+		4 - mod4
+		5 - mod5
+
+	//-->
 	<Key key="Up">up</Key>
 	<Key key="Down">down</Key>
 	<Key key="Right">right</Key>
