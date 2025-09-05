@@ -2,7 +2,7 @@
 <JWM>
 
 	<!-- The root menu. //-->
-	<RootMenu onroot="12">
+	<RootMenu onroot="3">
 		<!-- <Include>/etc/jwm/debian-menu</Include> //-->
 		<Include>$HOME/.config/jwm/menu</Include>
 
@@ -36,7 +36,7 @@
 	<!-- Tray at the bottom. //-->
 	<Tray x="0" y="-1" height="25" autohide="off" delay="1000">
 
-		<TrayButton icon="/usr/share/jwm/jwm-red.svg">root:1</TrayButton>
+		<TrayButton icon="/usr/share/jwm/jwm-red.svg">root:3</TrayButton>
 
 		<Spacer width="2"/>
 
@@ -250,7 +250,7 @@
 	<Key mask="4" key="a">prevstacked</Key>
 	<Key mask="4" key="s">nextstacked</Key>
 	<Key mask="A" key="#">desktop#</Key>
-	<Key mask="A" key="F1">root:1</Key>
+	<Key mask="A" key="F1">root:3</Key>
 	<!-- <Key mask="A" key="F2">window</Key> //-->
 	<Key mask="A" key="space">window</Key>
 
@@ -299,7 +299,7 @@
 
 	<!-- Mousebind //-->
 	<!-- https://joewing.net/projects/jwm/config.html#mouse //-->
-	<Mouse context="root" button="3">root:1</Mouse>
+	<Mouse context="root" mask="C" button="1">showdesktop</Mouse>
 	<Mouse context="root" button="4">ldesktop</Mouse>
 	<Mouse context="root" button="5">rdesktop</Mouse>
 
