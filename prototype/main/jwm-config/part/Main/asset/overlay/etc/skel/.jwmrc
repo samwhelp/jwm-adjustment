@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <JWM>
 
-	<!-- The root menu. -->
+	<!-- The root menu. //-->
 	<RootMenu onroot="12">
 		<Include>/etc/jwm/debian-menu</Include>
 		<Program icon="start-here" label="Rofi">rofi -show drun -show-icons</Program>
@@ -10,16 +10,14 @@
 		<Separator/>
 		<Program icon="utilities-terminal" label="Terminal">x-terminal-emulator</Program>
 		<Separator/>
-		<Program icon="lock" label="Lock">
-		   xscreensaver-command -lock
-		</Program>
+		<Program icon="lock" label="Lock">xscreensaver-command -lock</Program>
 		<Separator/>
 		<Restart label="Restart" icon="reload"/>
 		<Program label="Power Off">/usr/libexec/jwm/jwm-poweroff.sh</Program>
 		<Exit label="Log Out" confirm="true" icon="exit"/>
 	</RootMenu>
 
-	<!-- Options for program groups. -->
+	<!-- Options for program groups. //-->
 	<Group>
 		<Option>tiled</Option>
 	</Group>
@@ -33,7 +31,7 @@
 		<Option>notitle</Option>
 	</Group>
 
-	<!-- Tray at the bottom. -->
+	<!-- Tray at the bottom. //-->
 	<Tray x="0" y="-1" height="25" autohide="off" delay="1000">
 
 		<TrayButton icon="/usr/share/jwm/jwm-red.svg">root:1</TrayButton>
@@ -66,7 +64,7 @@
 
 	</Tray>
 
-	<!-- Visual Styles -->
+	<!-- Visual Styles //-->
 	<WindowStyle decorations="motif">
 		<Font>Sans-12:bold</Font>
 		<Width>4</Width>
@@ -87,17 +85,17 @@
 		<Opacity>0.75</Opacity>
 	</TrayStyle>
 	<TaskListStyle list="all" group="true">
-	  <Font>Sans-12</Font>
-	  <Active>
+		<Font>Sans-12</Font>
+		<Active>
 		<Foreground>#FFFFFF</Foreground>
 		<Background>#555555</Background>
-	  </Active>
-	  <Minimized>
+		</Active>
+		<Minimized>
 		<Foreground>#FFFFFF</Foreground>
 		<Background>#111111</Background>
-	  </Minimized>
-	  <Foreground>#FFFFFF</Foreground>
-	  <Background>#333333</Background>
+		</Minimized>
+		<Foreground>#FFFFFF</Foreground>
+		<Background>#333333</Background>
 	</TaskListStyle>
 	<PagerStyle>
 		<Foreground>#555555</Foreground>
@@ -124,10 +122,11 @@
 		<Background>#999999</Background>
 	</PopupStyle>
 
-	<!-- Path where icons can be found.
-		 IconPath can be listed multiple times to allow searching
-		 for icons in multiple paths.
-	  -->
+	<!--
+		Path where icons can be found.
+		IconPath can be listed multiple times to allow searching
+		for icons in multiple paths.
+	//-->
 	<IconPath>/usr/share/icons/gnome/256x256/actions</IconPath>
 	<IconPath>/usr/share/icons/gnome/256x256/apps</IconPath>
 	<IconPath>/usr/share/icons/gnome/256x256/categories</IconPath>
@@ -175,42 +174,43 @@
 	<IconPath>/usr/share/icons</IconPath>
 	<IconPath>/usr/share/pixmaps</IconPath>
 
-	<!-- Virtual Desktops -->
-	<!-- Desktop tags can be contained within Desktops for desktop names. -->
+	<!-- Virtual Desktops //-->
+	<!-- Desktop tags can be contained within Desktops for desktop names. //-->
 	<Desktops width="4" height="1">
-		<!-- Default background. Note that a Background tag can be
-			  contained within a Desktop tag to give a specific background
-			  for that desktop.
-		 -->
+		<!--
+			Default background.
+			Note that a Background tag can be contained within a Desktop tag
+			to give a specific background for that desktop.
+		//-->
 		<!-- <Background type="solid">#111111</Background> //-->
 		<Background type="image">/usr/share/backgrounds/default.jpg</Background>
 	</Desktops>
 
-	<!-- Double click speed (in milliseconds) -->
+	<!-- Double click speed (in milliseconds) //-->
 	<DoubleClickSpeed>400</DoubleClickSpeed>
 
-	<!-- Double click delta (in pixels) -->
+	<!-- Double click delta (in pixels) //-->
 	<DoubleClickDelta>2</DoubleClickDelta>
 
-	<!-- The focus model (sloppy or click) -->
+	<!-- The focus model (sloppy or click) //-->
 	<!-- <FocusModel>sloppy</FocusModel> //-->
 	<FocusModel>click</FocusModel>
 
-	<!-- The snap mode (none, screen, or border) -->
+	<!-- The snap mode (none, screen, or border) //-->
 	<SnapMode distance="10">border</SnapMode>
 
 	<!-- https://joewing.net/projects/jwm/config.html#other //-->
-	<!-- The move mode (outline or opaque) -->
+	<!-- The move mode (outline or opaque) //-->
 	<!-- <MoveMode>opaque</MoveMode> //-->
 	<!-- <MoveMode mask="A">opaque</MoveMode> //-->
 	<MoveMode mask="4">opaque</MoveMode>
 
-	<!-- The resize mode (outline or opaque) -->
+	<!-- The resize mode (outline or opaque) //-->
 	<!-- <ResizeMode>opaque</ResizeMode> //-->
 	<!-- <ResizeMode mask="A">opaque</ResizeMode> //-->
 	<ResizeMode mask="4">opaque</ResizeMode>
 
-	<!-- Key bindings -->
+	<!-- Keybind //-->
 	<!-- https://joewing.net/projects/jwm/config.html#keys //-->
 	<!--
 
@@ -263,8 +263,8 @@
 	<Key mask="4" key="e">move</Key>
 	<Key mask="4" key="r">resize</Key>
 	<Key mask="4" key="x">minimize</Key>
-	<!--<Key mask="A" key="x">restore</Key>//-->
-	<!--<Key mask="4" key="m">showtray</Key>//-->
+	<!-- <Key mask="A" key="x">restore</Key> //-->
+	<!-- <Key mask="4" key="m">showtray</Key> //-->
 
 
 
@@ -295,7 +295,7 @@
 	<Key mask="AS" key="y">exec:xfce4-terminal --drop-down</Key>
 
 
-	<!-- Mouse bindings -->
+	<!-- Mousebind //-->
 	<!-- https://joewing.net/projects/jwm/config.html#mouse //-->
 	<Mouse context="root" button="3">root:1</Mouse>
 	<Mouse context="root" button="4">ldesktop</Mouse>
@@ -339,6 +339,7 @@
 	<Mouse context="border" mask="4" button="3">resize</Mouse>
 
 
+	<!-- Autostart //-->
 	<StartupCommand>~/.config/jwm/start</StartupCommand>
 
 
