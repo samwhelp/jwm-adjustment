@@ -30,7 +30,7 @@
 
 	<!-- ## Style //-->
 	<Include>$HOME/.config/jwm/config/main/style/Default/init.conf</Include>
-
+	<!-- <Include>$HOME/.config/jwm/config/main/style/Default-Flat/init.conf</Include> //-->
 
 
 	<!--
