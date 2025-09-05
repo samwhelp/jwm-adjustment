@@ -6,25 +6,14 @@
 	<Include>$HOME/.config/jwm/config/main/icon/path/default.conf</Include>
 
 
+	<!-- ## Group //-->
+	<Include>$HOME/.config/jwm/config/main/group/default.conf</Include>
+
+
 	<!-- ## RootMenu //-->
 	<!-- <Include>$HOME/.config/jwm/config/main/menu/root/default.conf</Include> //-->
 	<!-- <Include>$HOME/.config/jwm/config/main/menu/root/debian.conf</Include> //-->
 	<Include>$HOME/.config/jwm/config/main/menu/root/basic.conf</Include>
-
-
-	<!-- Options for program groups. //-->
-	<Group>
-		<Option>tiled</Option>
-	</Group>
-	<Group>
-		<Name>xterm</Name>
-		<Option>vmax</Option>
-	</Group>
-	<Group>
-		<Name>xclock</Name>
-		<Option>drag</Option>
-		<Option>notitle</Option>
-	</Group>
 
 
 	<!-- ## Panel //-->
