@@ -28,63 +28,10 @@
 	<Include>$HOME/.config/jwm/config/main/panel/bottom.conf</Include>
 
 
-	<!-- Visual Styles //-->
-	<WindowStyle decorations="motif">
-		<Font>Sans-12:bold</Font>
-		<Width>4</Width>
-		<Corner>0</Corner>
-		<Foreground>#FFFFFF</Foreground>
-		<Background>#555555</Background>
-		<Opacity>0.5</Opacity>
-		<Active>
-			<Foreground>#FFFFFF</Foreground>
-			<Background>#0077CC</Background>
-			<Opacity>1.0</Opacity>
-		</Active>
-	</WindowStyle>
-	<TrayStyle decorations="motif">
-		<Font>Sans-12</Font>
-		<Background>#333333</Background>
-		<Foreground>#FFFFFF</Foreground>
-		<Opacity>0.75</Opacity>
-	</TrayStyle>
-	<TaskListStyle list="all" group="true">
-		<Font>Sans-12</Font>
-		<Active>
-		<Foreground>#FFFFFF</Foreground>
-		<Background>#555555</Background>
-		</Active>
-		<Minimized>
-		<Foreground>#FFFFFF</Foreground>
-		<Background>#111111</Background>
-		</Minimized>
-		<Foreground>#FFFFFF</Foreground>
-		<Background>#333333</Background>
-	</TaskListStyle>
-	<PagerStyle>
-		<Foreground>#555555</Foreground>
-		<Background>#333333</Background>
-		<Text>#FFFFFF</Text>
-		<Active>
-			<Foreground>#0077CC</Foreground>
-			<Background>#004488</Background>
-		</Active>
-	</PagerStyle>
-	<MenuStyle decorations="motif">
-		<Font>Sans-12</Font>
-		<Foreground>#FFFFFF</Foreground>
-		<Background>#333333</Background>
-		<Active>
-			<Foreground>#FFFFFF</Foreground>
-			<Background>#0077CC</Background>
-		</Active>
-		<Opacity>0.85</Opacity>
-	</MenuStyle>
-	<PopupStyle>
-		<Font>Sans-12</Font>
-		<Foreground>#000000</Foreground>
-		<Background>#999999</Background>
-	</PopupStyle>
+	<!-- ## Style //-->
+	<Include>$HOME/.config/jwm/config/main/style/Default/init.conf</Include>
+
+
 
 	<!--
 		Path where icons can be found.
