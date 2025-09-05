@@ -32,25 +32,13 @@
 	<Include>$HOME/.config/jwm/config/main/panel/bottom.conf</Include>
 
 
+	<!-- ## Desktop //-->
+	<Include>$HOME/.config/jwm/config/main/desktop/default.conf</Include>
+
+
 	<!-- ## Style //-->
 	<Include>$HOME/.config/jwm/config/main/style/Default/init.conf</Include>
 	<!-- <Include>$HOME/.config/jwm/config/main/style/Default-Flat/init.conf</Include> //-->
-
-
-
-
-	<!-- Virtual Desktops //-->
-	<!-- Desktop tags can be contained within Desktops for desktop names. //-->
-	<Desktops width="4" height="1">
-		<!--
-			Default background.
-			Note that a Background tag can be contained within a Desktop tag
-			to give a specific background for that desktop.
-		//-->
-		<!-- <Background type="solid">#111111</Background> //-->
-		<Background type="image">/usr/share/backgrounds/default.jpg</Background>
-	</Desktops>
-
 
 
 	<!-- ## Feature //-->
