@@ -1,4 +1,6 @@
+<?xml version="1.0"?>
 <JWM>
+
 <!-- Automatically generated and updated. Do not touch -->
 	<Menu label="Debian">
 		<Menu label="Applications">
@@ -41,4 +43,6 @@
 		</Menu>
 		</Menu>
 	</Menu>
+
+
 </JWM>
