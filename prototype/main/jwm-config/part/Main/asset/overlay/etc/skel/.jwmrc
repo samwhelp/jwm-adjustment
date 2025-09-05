@@ -204,13 +204,13 @@
 	<!-- https://joewing.net/projects/jwm/config.html#other //-->
 	<!-- The move mode (outline or opaque) //-->
 	<!-- <MoveMode>opaque</MoveMode> //-->
-	<!-- <MoveMode mask="A">opaque</MoveMode> //-->
-	<MoveMode mask="4">opaque</MoveMode>
+	<!-- <MoveMode mask="A" coordinates="off">opaque</MoveMode> //-->
+	<MoveMode mask="4" coordinates="off">opaque</MoveMode>
 
 	<!-- The resize mode (outline or opaque) //-->
 	<!-- <ResizeMode>opaque</ResizeMode> //-->
-	<!-- <ResizeMode mask="A">opaque</ResizeMode> //-->
-	<ResizeMode mask="4">opaque</ResizeMode>
+	<!-- <ResizeMode mask="A" coordinates="off">opaque</ResizeMode> //-->
+	<ResizeMode mask="4" coordinates="off">opaque</ResizeMode>
 
 	<!-- Keybind //-->
 	<!-- https://joewing.net/projects/jwm/config.html#keys //-->
