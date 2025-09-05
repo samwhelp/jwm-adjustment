@@ -86,7 +86,7 @@
 		<Foreground>#FFFFFF</Foreground>
 		<Opacity>0.75</Opacity>
 	</TrayStyle>
-	<TaskListStyle list="all" group="true">
+	<TaskListStyle list="desktop" group="false">
 		<Font>Sans-12</Font>
 		<Active>
 		<Foreground>#FFFFFF</Foreground>
