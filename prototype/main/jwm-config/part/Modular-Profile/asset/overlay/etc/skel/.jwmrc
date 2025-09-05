@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<JWM>
+
+
+	<!-- ## IconPath //-->
+	<Include>$HOME/.config/jwm/config/main/icon/path/default.conf</Include>
+
+
+	<!-- ## Group //-->
+	<Include>$HOME/.config/jwm/config/main/group/default.conf</Include>
+
+
+	<!-- ## RootMenu //-->
+	<!-- <Include>$HOME/.config/jwm/config/main/menu/root/default.conf</Include> //-->
+	<!-- <Include>$HOME/.config/jwm/config/main/menu/root/debian.conf</Include> //-->
+	<Include>$HOME/.config/jwm/config/main/menu/root/basic.conf</Include>
+
+
+	<!-- ## Panel //-->
+	<!-- <Include>$HOME/.config/jwm/config/main/panel/top.conf</Include> //-->
+	<Include>$HOME/.config/jwm/config/main/panel/bottom.conf</Include>
+
+
+	<!-- ## Desktop //-->
+	<Include>$HOME/.config/jwm/config/main/desktop/default.conf</Include>
+
+
+	<!-- ## Style //-->
+	<Include>$HOME/.config/jwm/config/main/style/Default/init.conf</Include>
+	<!-- <Include>$HOME/.config/jwm/config/main/style/Default-Flat/init.conf</Include> //-->
+
+
+	<!-- ## Feature //-->
+	<Include>$HOME/.config/jwm/config/main/feature/default.conf</Include>
+
+
+	<!-- ## Keybind //-->
+	<Include>$HOME/.config/jwm/config/main/keybind/default.conf</Include>
+
+
+	<!-- ## Mousebind //-->
+	<Include>$HOME/.config/jwm/config/main/mousebind/default.conf</Include>
+
+
+	<!-- ## Autostart //-->
+	<Include>$HOME/.config/jwm/config/main/autostart/default.conf</Include>
+	<!-- <Include>$HOME/.config/jwm/config/main/autostart/basic.conf</Include> //-->
+
+
+</JWM>
