@@ -312,6 +312,18 @@
 
 
 	<!--
+		sudo apt-get install mate-media
+	//-->
+	<Key mask="AS" key="v">exec:mate-volume-control</Key> //-->
+
+
+	<!--
+		sudo apt-get install pavucontrol
+	//-->
+	<!-- <Key mask="AS" key="v">exec:pavucontrol</Key> //-->
+
+
+	<!--
 		sudo apt-get install xfce4-screenshooter
 	//-->
 	<Key key="Print">exec:xfce4-screenshooter --fullscreen</Key>
@@ -338,6 +350,34 @@
 	<Key key="XF86_MonBrightnessUp">exec:brightnessctl set 5%-</Key>
 	<Key mask="AS" key="bracketright">exec:brightnessctl set +5%</Key>
 	<Key mask="AS" key="bracketleft">exec:brightnessctl set 5%-</Key>
+
+
+	<!--
+		sudo apt-get install alsa-utils
+	//-->
+	<!--
+	<Key key="XF86AudioMute">exec:amixer -q -D pulse sset Master toggle</Key>
+	<Key key="XF86AudioRaiseVolume">exec:amixer -q -D pulse sset Master 5%+ unmute</Key>
+	<Key key="XF86AudioLowerVolume">exec:amixer -q -D pulse sset Master 5%- unmute</Key>
+	<Key mask="A" key="m">exec:amixer -q -D pulse sset Master toggle</Key>
+	<Key mask="AS" key="period">exec:amixer -q -D pulse sset Master 5%+ unmute</Key>
+	<Key mask="AS" key="comma">exec:amixer -q -D pulse sset Master 5%- unmute</Key>
+	<Key mask="AC" key="period">exec:amixer -q -D pulse sset Master 5%+ unmute</Key>
+	<Key mask="AC" key="comma">exec:amixer -q -D pulse sset Master 5%- unmute</Key>
+	//-->
+
+
+	<!--
+		sudo apt-get install pamixer
+	//-->
+	<Key key="XF86AudioMute">exec:pamixer --toggle-mute</Key>
+	<Key key="XF86AudioRaiseVolume">exec:pamixer -i 5</Key>
+	<Key key="XF86AudioLowerVolume">exec:pamixer -d 5</Key>
+	<Key mask="A" key="m">exec:pamixer --toggle-mute</Key>
+	<Key mask="AS" key="period">exec:pamixer -i 5</Key>
+	<Key mask="AS" key="comma">exec:pamixer -d 5</Key>
+	<Key mask="AC" key="period">exec:pamixer -i 1</Key>
+	<Key mask="AC" key="comma">exec:pamixer -d 1</Key>
 
 
 	<!-- ## Mousebind //-->
