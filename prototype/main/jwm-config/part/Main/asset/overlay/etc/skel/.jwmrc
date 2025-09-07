@@ -311,6 +311,20 @@
 	<Key mask="AS" key="y">exec:xfce4-terminal --drop-down</Key>
 
 
+	<Key key="Print">exec:xfce4-screenshooter --fullscreen</Key>
+	<Key mask="4" key="Print">exec:xfce4-screenshooter --window</Key>
+	<Key mask="C" key="Print">exec:xfce4-screenshooter --region</Key>
+	<Key mask="A" key="Print">exec:xfce4-screenshooter</Key>
+
+
+	<!--
+	<Key key="Print">exec:screengrab --fullscreen</Key>
+	<Key mask="4" key="Print">exec:screengrab --active</Key>
+	<Key mask="C" key="Print">exec:screengrab --region</Key>
+	<Key mask="A" key="Print">exec:screengrab</Key>
+	//-->
+
+
 	<!-- ## Mousebind //-->
 	<!--
 		https://joewing.net/projects/jwm/config.html#mouse
