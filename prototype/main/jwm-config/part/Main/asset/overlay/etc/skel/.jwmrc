@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <JWM>
 
+
+	<!--
+		## Link
+
+		* https://github.com/joewing/jwm
+		* https://joewing.net/projects/jwm/config.html
+		* https://github.com/samwhelp/jwm-adjustment/blob/main/prototype/main/jwm-config/part/Main/asset/overlay/etc/skel/.jwmrc
+	//-->
+
+
 	<!-- The root menu. //-->
 	<RootMenu onroot="3">
 		<!-- <Include>/etc/jwm/debian-menu</Include> //-->
