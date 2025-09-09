@@ -444,8 +444,8 @@
 
 
 	<!-- ## Autostart //-->
-	<StartupCommand>~/.config/jwm/start</StartupCommand>
-	<!-- <StartupCommand>$HOME/.config/jwm/start</StartupCommand> //-->
+	<!-- <StartupCommand>~/.config/jwm/start</StartupCommand> //-->
+	<StartupCommand>$HOME/.config/jwm/start</StartupCommand>
 
 	<!--
 	<StartupCommand>
