@@ -28,8 +28,8 @@
 
 
 	<!-- ## Panel //-->
-	<!-- <Include>$HOME/.config/jwm/config/main/panel/top.conf</Include> //-->
-	<Include>$HOME/.config/jwm/config/main/panel/bottom.conf</Include>
+	<Include>$HOME/.config/jwm/config/main/panel/top.conf</Include>
+	<!-- <Include>$HOME/.config/jwm/config/main/panel/bottom.conf</Include> //-->
 
 
 	<!-- ## Desktop //-->
