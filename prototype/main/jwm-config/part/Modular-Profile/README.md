@@ -25,3 +25,9 @@
 | Config File Path |
 | ---------------- |
 | [~/.jwmrc](./asset/overlay/etc/skel/.jwmrc) |
+
+
+| Config File Path |
+| ---------------- |
+| [~/.config/jwm/menu](./asset/overlay/etc/skel/.config/jwm/menu) |
+| [~/.config/jwm/start](./asset/overlay/etc/skel/.config/jwm/start) |
