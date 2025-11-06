@@ -55,6 +55,14 @@
 
 | Link | GitHub |
 | ---- | ------ |
-| [Debian Adjustment](https://samwhelp.github.io/debian-adjustment/) | [GitHub](https://github.com/samwhelp/debian-adjustment) |
-| [Ubuntu Adjustment](https://samwhelp.github.io/ubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-adjustment) |
-| [Linux Mint Adjustment](https://samwhelp.github.io/linuxmint-adjustment/) | [GitHub](https://github.com/samwhelp/linuxmint-adjustment) |
+| [Debian Jwm Adjustment](https://samwhelp.github.io/debian-jwm-adjustment/) | [GitHub](https://github.com/samwhelp/debian-jwm-adjustment) |
+| [Ubuntu Jwm Adjustment](https://samwhelp.github.io/ubuntu-jwm-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-jwm-adjustment) |
+| [Fedora Jwm Adjustment](https://samwhelp.github.io/fedora-jwm-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-jwm-adjustment) |
+| [Archlinux Jwm Adjustment](https://samwhelp.github.io/archlinux-jwm-adjustment/) | [GitHub](https://github.com/samwhelp/archlinux-jwm-adjustment) |
+
+
+
+
+## Samwhelp
+
+* [GitHub](https://github.com/samwhelp)
