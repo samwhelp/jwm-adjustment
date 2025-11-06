@@ -448,6 +448,9 @@
 	<!-- <StartupCommand>$HOME/.config/jwm/start</StartupCommand> //-->
 
 	<StartupCommand>
+
+		picom &
+
 		nm-applet &
 
 		variety &
@@ -455,6 +458,11 @@
 		mate-volume-control-status-icon &
 
 		plank &
+
+		fcitx5 -d &
+
+		/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
+
 	</StartupCommand>
 
 
